@@ -1,0 +1,35 @@
+﻿<Window x:Class="lab2wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="39,83,0,0" VerticalAlignment="Top" Width="255" Height="35">
+            <ComboBoxItem>Задание 1</ComboBoxItem>
+            <ComboBoxItem>Задание 2</ComboBoxItem>
+            <ComboBoxItem>Задание 3</ComboBoxItem>
+            <ComboBoxItem>Задание 4</ComboBoxItem>
+            <ComboBoxItem>Задание 5</ComboBoxItem>
+            <ComboBoxItem>Задание 6</ComboBoxItem>
+            <ComboBoxItem>Задание 7</ComboBoxItem>
+            <ComboBoxItem>Задание 8</ComboBoxItem>
+            <ComboBoxItem>Задание 9</ComboBoxItem>
+            <ComboBoxItem>Задание 10</ComboBoxItem>
+            <ComboBoxItem>Задание 11</ComboBoxItem>
+            <ComboBoxItem>Задание 12</ComboBoxItem>
+            <ComboBoxItem>Задание 13</ComboBoxItem>
+            <ComboBoxItem>Задание 14</ComboBoxItem>
+            <ComboBoxItem>Задание 15</ComboBoxItem>
+            <ComboBoxItem>Задание 16</ComboBoxItem>
+            <TextBox x:Name="textBox" Height="23" TextWrapping="Wrap" Text="TextBox" Width="120"/>
+        </ComboBox>
+        <Button x:Name="button" Content="Готово!" HorizontalAlignment="Left" Margin="39,142,0,0" VerticalAlignment="Top" Width="255" Height="38" FontSize="24" Click="button_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="400" Margin="352,10,0,0" VerticalAlignment="Top" Width="413"/>
+        <Button x:Name="button1" Content="Выход" HorizontalAlignment="Left" Margin="39,349,0,0" VerticalAlignment="Top" Width="255" Height="43" FontSize="24"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="31" Margin="39,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
+
+    </Grid>
+</Window>
